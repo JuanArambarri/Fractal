@@ -7,4 +7,6 @@ add_executable(Fractal main.cpp
         BitmapFileHeader.h
         BitmapInfoHeader.h
         Bitmap.cpp
-        Bitmap.h)
+        Bitmap.h
+        Mandelbrot.cpp
+        Mandelbrot.h)

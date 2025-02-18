@@ -61,6 +61,12 @@ build CMakeFiles/Fractal.dir/Bitmap.cpp.obj: CXX_COMPILER__Fractal_unscanned_Deb
   OBJECT_DIR = CMakeFiles\Fractal.dir
   OBJECT_FILE_DIR = CMakeFiles\Fractal.dir
 
+build CMakeFiles/Fractal.dir/Mandelbrot.cpp.obj: CXX_COMPILER__Fractal_unscanned_Debug D$:/Bau/ProgrammingStudy/Projects/Fractal/Mandelbrot.cpp || cmake_object_order_depends_target_Fractal
+  DEP_FILE = CMakeFiles\Fractal.dir\Mandelbrot.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Fractal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fractal.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Fractal
@@ -69,7 +75,7 @@ build CMakeFiles/Fractal.dir/Bitmap.cpp.obj: CXX_COMPILER__Fractal_unscanned_Deb
 #############################################
 # Link the executable Fractal.exe
 
-build Fractal.exe: CXX_EXECUTABLE_LINKER__Fractal_Debug CMakeFiles/Fractal.dir/main.cpp.obj CMakeFiles/Fractal.dir/Bitmap.cpp.obj
+build Fractal.exe: CXX_EXECUTABLE_LINKER__Fractal_Debug CMakeFiles/Fractal.dir/main.cpp.obj CMakeFiles/Fractal.dir/Bitmap.cpp.obj CMakeFiles/Fractal.dir/Mandelbrot.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Fractal.dir
