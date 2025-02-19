@@ -9,4 +9,7 @@ add_executable(Fractal main.cpp
         Bitmap.cpp
         Bitmap.h
         Mandelbrot.cpp
-        Mandelbrot.h)
+        Mandelbrot.h
+        Zoom.h
+        ZoomList.cpp
+        ZoomList.h)
