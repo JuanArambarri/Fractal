@@ -12,4 +12,8 @@ add_executable(Fractal main.cpp
         Mandelbrot.h
         Zoom.h
         ZoomList.cpp
-        ZoomList.h)
+        ZoomList.h
+        FractalCreator.cpp
+        FractalCreator.h
+        RGB.cpp
+        RGB.h)

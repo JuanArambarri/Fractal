@@ -6,7 +6,6 @@
 using namespace caveofprogramming;
 using namespace std;
 
-namespace caveofprogramming {
 
     Bitmap::Bitmap(int width, int height) :
             m_width(width), m_height(height), m_pPixels(
@@ -59,5 +58,3 @@ namespace caveofprogramming {
     Bitmap::~Bitmap() {
         // TODO Auto-generated destructor stub
     }
-
-} /* namespace caveofprogramming */

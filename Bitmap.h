@@ -10,7 +10,6 @@
 #include <memory>
 using namespace std;
 
-namespace caveofprogramming {
 
     class Bitmap {
     private:
@@ -26,6 +25,5 @@ namespace caveofprogramming {
         virtual ~Bitmap();
     };
 
-} /* namespace caveofprogramming */
 
 #endif /* BITMAP_H_ */

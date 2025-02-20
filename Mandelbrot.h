@@ -8,7 +8,7 @@
 
 class Mandelbrot {
 public:
-    static const int MAX_ITERATIONS = 1000; //more pixels, better image.
+    static const int MAX_ITERATIONS = 3500; //more pixels, better image.
 public:
     Mandelbrot() = default;
     virtual ~Mandelbrot() = default;

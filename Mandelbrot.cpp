@@ -9,10 +9,11 @@ using namespace std;
 int Mandelbrot::getIterations(double x, double y) {
     complex<double> z = 0;
     complex<double> c(x, y);
+
     int iterations = 0;
+
     while (iterations < MAX_ITERATIONS) {
-        /// If z tends to infinity, it goes outside the scope of the Mandelbrot set
-        z = z * z + c; // z * z is squaring basically
+        z = z * z + c;
         if(norm(z)> 4.0){ //a lot quicker than abs(z).
             break;
         }
